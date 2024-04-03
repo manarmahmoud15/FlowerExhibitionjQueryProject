@@ -1,0 +1,246 @@
+.shop-best-seller-product img {
+    height: 80px; 
+    width: auto; 
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.productInfo p{
+    margin-top: 15px;
+}
+.shop-tag a{
+    background-color: #429edf;
+    height: 20px;
+    padding: 0 10px;
+   color: white ;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+   
+}
+.shopheart{
+    
+    background-color: #303030;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 1px;
+    text-decoration: none;
+}
+.shop-meta a{
+    text-decoration: none;
+}
+.shopheart:hover {
+    background-color:#70c745;
+    color: white;
+}
+
+
+
+.shopAddcart{
+
+        
+        height: 50px;
+        width: 100px;
+        background-color: #303030;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+       text-decoration: none;
+       margin-right: 1px;
+
+}
+.shopAddcart:hover {
+    background-color:#70c745;
+    color: white;
+}
+
+.shopcompare{
+    background-color: #303030;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.shopcompare:hover {
+    background-color:#70c745;
+    color: white;
+}
+
+
+.shop-meta{
+    
+    position: absolute;
+    top: 250px;
+    left:50px; 
+    visibility: hidden;
+    
+}
+
+.shopsale-tag a{
+    background-color: #e61d47;
+    height: 20px;
+    padding: 0 10px;
+    color: white ;
+     font-weight: 700;
+     font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+
+}
+.shop-img:hover .shop-meta {
+    visibility: visible;
+    
+}
+.shop-img:hover{
+    transition: box-shadow 0.3s;
+}
+.pagination{
+    float: right;
+    margin-top: 15px;
+
+    
+}
+.pagination  a :hover{
+    color:#70c745 !important;
+}
+.shop-item{
+    color: #707070;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    margin-left: 20px;
+
+  
+
+}
+.shopHome li i{
+    color: #000;
+}
+.shopHome a {
+    color: #000;
+    text-decoration: none;
+}
+.shopCount p{
+    color: #707070;
+
+}
+
+.sliderShop{
+    width: 260px;
+    height: 7px;
+    -webkit-appearance: none;
+    appearance:none;
+    background: #70c745;
+    outline: none;
+    
+}
+.sliderShop::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: #70c745;
+    cursor: pointer;
+    outline:none;
+  }
+  
+  .rangePrice{
+    color: #707070;
+  }
+  .shopcheckbox{
+    color: #707070;
+
+  }
+  .shopCatagory .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #70c745;
+}
+.shopInfo a{
+    color:#707070;
+    text-decoration: none;
+   
+
+    
+}
+.shopInfo p{
+    color: #303030;
+    margin-top: 10px;
+}
+.ratings{
+    margin-bottom: 8px;
+
+}
+.ratings i{
+color: #ff9800;
+font-size: 12px;
+
+}
+
+.shop-info   p 
+ {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #707070;
+    
+}
+.shop-info h6{
+    margin-bottom: 30px;
+
+} 
+.shop-info  a{
+    text-decoration: none;
+}
+.pagination .shop-item a.page-link:hover {
+    background-color: #70c745;
+}
+.pagination .shop-item a.page-link {
+    color:#707070;
+}
+.footerbg-img {
+    background-image: url("img/33.jpeg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: background-color 0.5s ease;
+    filter: brightness(0.9);
+  }
+  .contactbg-img {
+    background-image: url("img/24.jpg");
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .shopHome{
+    margin-top: 18px;
+    
+  }
+  .shopCount p{
+    margin-top: 10px;
+  }
+
+
